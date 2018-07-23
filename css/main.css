@@ -938,3 +938,19 @@ ul.nostyle i {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
+
+li:hover #dropdown_apps{
+  display: block;
+  /* width: 50px; */
+}
+#dropdown_apps{
+  display: none;
+  /* width: 50px; */
+}
+.apps_list_item{
+  background-color: transparent;
+  border:none;
+}
+a.list-group-item:hover{
+  background-color: #45aed6;
+}
