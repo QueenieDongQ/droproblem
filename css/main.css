@@ -239,14 +239,14 @@ ul.nostyle i {
   height: 100%;
   color: #fff;
 }
-#main-slider .slider-inner h2 {
+#main-slider .slider-inner h1 {
   margin-top: 180px;
   font-size: 36px;
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
 }
-#main-slider .slider-inner h2 > span {
+#main-slider .slider-inner span {
   color: #45aed6;
 }
 #main-slider .slider-inner .btn {
@@ -281,6 +281,9 @@ ul.nostyle i {
 #main-slider .owl-next {
   right: -35px;
   text-indent: -14px;
+}
+#main-slider .slider_p{
+  font-size: 18px;
 }
 #bar {
   width: 0%;
