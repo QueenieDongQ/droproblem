@@ -28,13 +28,14 @@
 
 <body id="home" class="homepage">
     <!-- 顶部导航 -->
-    <nav data-load="header.html"></nav>
+    <header></header>
     <!--顶部导航 over-->
+
     <section id="pricing">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title text-center wow fadeInDown">Pricing Table</h2>
-                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+                <h2 class="section-title text-center wow fadeInDown">产品价格</h2>
+                <p class="text-center wow fadeInDown">适用于TaskAlive应用 </p>
             </div>
 
             <div class="row">
@@ -44,10 +45,10 @@
                             <li class="plan-header">
                                 <div class="price-duration">
                                     <span class="price">
-                                        FREE
+                                        ¥0
                                     </span>
                                     <span class="duration">
-                                        <!-- per month -->
+                                        per year
                                     </span>
                                 </div>
 
@@ -74,7 +75,7 @@
                                         ¥299
                                     </span>
                                     <span class="duration">
-                                        per month
+                                        per year
                                     </span>
                                 </div>
 
@@ -101,7 +102,7 @@
                                         ¥499
                                     </span>
                                     <span class="duration">
-                                        per month
+                                        per year
                                     </span>
                                 </div>
 
@@ -151,7 +152,7 @@
     </section><!--/#pricing-->
 
     <!--footer-->
-    <nav data-load="footer.html"></nav>
+    <footer></footer>
     <!--footer over-->
 
     <script src="js/jquery.js"></script>
@@ -166,12 +167,11 @@
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-    $(function(){
-        $("[data-load]").each(function(){
-            $(this).load($(this).data("load"), function(){
-            });
-        });
-    })
+        $(function(){
+            $("header").load('./header.html');
+            $("footer").load('./footer.html');
+            console.log('dasdasdasdas')
+        })
     </script>
 
 </body>
