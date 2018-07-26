@@ -957,3 +957,9 @@ li:hover #dropdown_apps{
 a.list-group-item:hover{
   background-color: #45aed6;
 }
+
+.button_sign{
+  text-align: center;
+  top:25%;
+  left:25%;
+}
